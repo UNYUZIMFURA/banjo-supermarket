@@ -20,7 +20,7 @@ public class Main {
             System.out.println("How many products do you want to buy? ");
             int productNumber = scanner.nextInt();
             System.out.println("Buy Product(s) by choosing its/their number!: ");
-            // Testing
+            // Testing jere
             for (int i = 1; i <= productNumber; i++) {
                 System.out.println("Enter product " + i);
             }
