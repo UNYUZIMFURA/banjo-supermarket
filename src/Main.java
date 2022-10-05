@@ -1,4 +1,5 @@
 import java.util.Scanner;
+import java.util.Arrays;
 
 public class Main {
         public static void main (String[]args) {
@@ -17,12 +18,15 @@ public class Main {
             System.out.println("5.Yoghurt: $3");
             System.out.println("6.Bread: $2");
             System.out.println("");
-            System.out.println("How many products do you want to buy? ");
+            System.out.print("How many products do you want to buy? ");
             int productNumber = scanner.nextInt();
             System.out.println("Buy Product(s) by choosing its/their number!: ");
-            // Testing jere
+            int arr[] = new int[10];
             for (int i = 1; i <= productNumber; i++) {
-                System.out.println("Enter product " + i);
+                System.out.print("Enter product " + i);
+                arr[i-1] = scanner.nextInt();
             }
+
+           System.out.println("You have chosen "+ Arrays.toString(arr));
         }
 }
