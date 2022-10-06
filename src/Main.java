@@ -27,8 +27,7 @@ public class Main {
                 arr[i-1] = scanner.nextInt();
             }
             String chosenProducts[] = new String[productNumber];
-            System.out.println(chosenProducts.length);
-
+            System.out.println("The Product Number : "+productNumber);
             for (int i = 0; i < arr.length; i++) {
                 if(arr[i] == 1) {
                     if(chosenProducts.length == 0 ){
@@ -47,8 +46,7 @@ public class Main {
                     }
 
                     else {
-                        System.out.println("mutziig" + chosenProducts.length);
-                        chosenProducts[chosenProducts.length] = "Mutziig";
+                        chosenProducts[i] = "Mutziig";
                     }
                 }
 
@@ -58,8 +56,7 @@ public class Main {
                     }
 
                     else {
-                        System.out.println("cream" + chosenProducts.length);
-                        chosenProducts[chosenProducts.length] = "Ice cream";
+                        chosenProducts[i] = "Ice cream";
                     }
                 }
 
@@ -69,8 +66,7 @@ public class Main {
                     }
 
                     else {
-                        System.out.println("pizza" + chosenProducts.length);
-                        chosenProducts[chosenProducts.length] = "Pizza";
+                        chosenProducts[i] = "Pizza";
                     }
                 }
 
@@ -80,8 +76,7 @@ public class Main {
                     }
 
                     else {
-                        System.out.println("yoghurt" + chosenProducts.length);
-                        chosenProducts[chosenProducts.length] = "Yoghurt";
+                        chosenProducts[i] = "Yoghurt";
                     }
                 }
 
@@ -91,9 +86,10 @@ public class Main {
                     }
 
                     else {
-                        System.out.println("bread" + chosenProducts.length);
-                        chosenProducts[chosenProducts.length] = "Bread";
+                        chosenProducts[i] = "Bread";
                     }
+                }else {
+                    System.out.println("Product Not Registered");
                 }
             }
            System.out.println("You have chosen "+ Arrays.toString(chosenProducts));
