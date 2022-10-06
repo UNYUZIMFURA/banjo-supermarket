@@ -35,47 +35,65 @@ public class Main {
                         chosenProducts[0] = "Fried Chips";
                     }
 
-                  chosenProducts[chosenProducts.length + 1] = "Fried Chips";
+                    else {
+                        System.out.println(chosenProducts.length);
+                        chosenProducts[chosenProducts.length] = "Fried Chips";
+                    }
                 }
 
                 else if(arr[i] == 2) {
                     if(chosenProducts.length == 0 ){
-                        chosenProducts[0] = "Fried Chips";
+                        chosenProducts[0] = "Mutziig";
                     }
 
-                    chosenProducts[chosenProducts.length + 1] = "Mutziig";
+                    else {
+                        System.out.println(chosenProducts.length);
+                        chosenProducts[chosenProducts.length] = "Mutziig";
+                    }
                 }
 
                 else if (arr[i] == 3) {
                     if(chosenProducts.length == 0 ){
-                        chosenProducts[0] = "Fried Chips";
+                        chosenProducts[0] = "Ice cream";
                     }
 
-                    chosenProducts[chosenProducts.length + 1] = "Ice cream";
+                    else {
+                        System.out.println(chosenProducts.length);
+                        chosenProducts[chosenProducts.length] = "Ice cream";
+                    }
                 }
 
                 else if (arr[i] == 4) {
                     if(chosenProducts.length == 0 ){
-                        chosenProducts[0] = "Fried Chips";
+                        chosenProducts[0] = "Pizza";
                     }
 
-                    chosenProducts[chosenProducts.length + 1] = "Pizza";
+                    else {
+                        System.out.println(chosenProducts.length);
+                        chosenProducts[chosenProducts.length] = "Pizza";
+                    }
                 }
 
                 else if (arr[i] == 5) {
                     if(chosenProducts.length == 0 ){
-                        chosenProducts[0] = "Fried Chips";
+                        chosenProducts[0] = "Yoghurt";
                     }
 
-                    chosenProducts[chosenProducts.length + 1] = "Yoghurt";
+                    else {
+                        System.out.println(chosenProducts.length);
+                        chosenProducts[chosenProducts.length] = "Yoghurt";
+                    }
                 }
 
                 else if (arr[i] == 6) {
                     if(chosenProducts.length == 0 ){
-                        chosenProducts[0] = "Fried Chips";
+                        chosenProducts[0] = "Bread";
                     }
 
-                    chosenProducts[chosenProducts.length - productNumber] = "Bread";
+                    else {
+                        System.out.println(chosenProducts.length);
+                        chosenProducts[chosenProducts.length] = "Bread";
+                    }
                 }
             }
            System.out.println("You have chosen "+ Arrays.toString(chosenProducts));
