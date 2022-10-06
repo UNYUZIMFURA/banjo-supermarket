@@ -36,7 +36,7 @@ public class Main {
                     }
 
                     else {
-                        System.out.println(chosenProducts.length);
+                        System.out.println("chips" + chosenProducts.length);
                         chosenProducts[chosenProducts.length] = "Fried Chips";
                     }
                 }
@@ -47,7 +47,7 @@ public class Main {
                     }
 
                     else {
-                        System.out.println(chosenProducts.length);
+                        System.out.println("mutziig" + chosenProducts.length);
                         chosenProducts[chosenProducts.length] = "Mutziig";
                     }
                 }
@@ -58,7 +58,7 @@ public class Main {
                     }
 
                     else {
-                        System.out.println(chosenProducts.length);
+                        System.out.println("cream" + chosenProducts.length);
                         chosenProducts[chosenProducts.length] = "Ice cream";
                     }
                 }
@@ -69,7 +69,7 @@ public class Main {
                     }
 
                     else {
-                        System.out.println(chosenProducts.length);
+                        System.out.println("pizza" + chosenProducts.length);
                         chosenProducts[chosenProducts.length] = "Pizza";
                     }
                 }
@@ -80,7 +80,7 @@ public class Main {
                     }
 
                     else {
-                        System.out.println(chosenProducts.length);
+                        System.out.println("yoghurt" + chosenProducts.length);
                         chosenProducts[chosenProducts.length] = "Yoghurt";
                     }
                 }
@@ -91,7 +91,7 @@ public class Main {
                     }
 
                     else {
-                        System.out.println(chosenProducts.length);
+                        System.out.println("bread" + chosenProducts.length);
                         chosenProducts[chosenProducts.length] = "Bread";
                     }
                 }
