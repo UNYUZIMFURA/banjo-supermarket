@@ -21,12 +21,63 @@ public class Main {
             System.out.print("How many products do you want to buy? ");
             int productNumber = scanner.nextInt();
             System.out.println("Buy Product(s) by choosing its/their number!: ");
-            int arr[] = new int[10];
+            int arr[] = new int[productNumber];
             for (int i = 1; i <= productNumber; i++) {
                 System.out.print("Enter product " + i);
                 arr[i-1] = scanner.nextInt();
             }
+            String chosenProducts[] = new String[productNumber];
+            System.out.println(chosenProducts.length);
 
-           System.out.println("You have chosen "+ Arrays.toString(arr));
+            for (int i = 0; i < arr.length; i++) {
+                if(arr[i] == 1) {
+                    if(chosenProducts.length == 0 ){
+                        chosenProducts[0] = "Fried Chips";
+                    }
+
+                  chosenProducts[chosenProducts.length + 1] = "Fried Chips";
+                }
+
+                else if(arr[i] == 2) {
+                    if(chosenProducts.length == 0 ){
+                        chosenProducts[0] = "Fried Chips";
+                    }
+
+                    chosenProducts[chosenProducts.length + 1] = "Mutziig";
+                }
+
+                else if (arr[i] == 3) {
+                    if(chosenProducts.length == 0 ){
+                        chosenProducts[0] = "Fried Chips";
+                    }
+
+                    chosenProducts[chosenProducts.length + 1] = "Ice cream";
+                }
+
+                else if (arr[i] == 4) {
+                    if(chosenProducts.length == 0 ){
+                        chosenProducts[0] = "Fried Chips";
+                    }
+
+                    chosenProducts[chosenProducts.length + 1] = "Pizza";
+                }
+
+                else if (arr[i] == 5) {
+                    if(chosenProducts.length == 0 ){
+                        chosenProducts[0] = "Fried Chips";
+                    }
+
+                    chosenProducts[chosenProducts.length + 1] = "Yoghurt";
+                }
+
+                else if (arr[i] == 6) {
+                    if(chosenProducts.length == 0 ){
+                        chosenProducts[0] = "Fried Chips";
+                    }
+
+                    chosenProducts[chosenProducts.length - productNumber] = "Bread";
+                }
+            }
+           System.out.println("You have chosen "+ Arrays.toString(chosenProducts));
         }
 }
