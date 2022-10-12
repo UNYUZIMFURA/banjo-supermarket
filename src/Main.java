@@ -24,6 +24,10 @@ public class Main {
             System.out.println("");
             System.out.print("How many products do you want to buy? ");
             int productNumber = scanner.nextInt();
+            if(productNumber > 6) {
+                System.out.println("Enter Products up to 6 and less!");
+                System.exit(0);
+            }
             System.out.println("Buy Product(s) by choosing its/their number! ");
             System.out.println("");
             int arr[] = new int[productNumber];
